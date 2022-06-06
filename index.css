@@ -43,106 +43,106 @@ p {
 
 /* TODO: Add CSS for the rest of your solution below */
 /* General styles */
-.wrapper{
+.wrapper {
     justify-content: space-between;
 }
 
-.red{
+.red {
     background-color: red;
 }
 
-.blue{
+.blue {
     background-color: blue;
 }
 
-.green{
+.green {
     background-color: green;
 }
 
-.orange{
+.orange {
     background-color: #ffa500;
 }
 
 /* 3rd block */
 
-.wrapper:nth-of-type(3) .red{
+.wrapper:nth-of-type(3) .red {
     width: 80px;
 }
 
-.wrapper:nth-of-type(3) .blue{
+.wrapper:nth-of-type(3) .blue {
     width: 80px;
 }
 
 /* 4th block */
 
-.wrapper:nth-of-type(4) .red{
+.wrapper:nth-of-type(4) .red {
     flex: 1;
 }
 
-.wrapper:nth-of-type(4) .blue{
+.wrapper:nth-of-type(4) .blue {
     width: 80px;
 }
 
 /* 5th block */
 
-.wrapper:nth-of-type(5){
+.wrapper:nth-of-type(5) {
     align-items: center;
     justify-content: center;
 }
 
-.wrapper:nth-of-type(5) .red{
+.wrapper:nth-of-type(5) .red {
     width: 40px;
     height: 40px;
 }
 
 /* 6th block */
 
-.wrapper:nth-of-type(6){
+.wrapper:nth-of-type(6) {
     background-color: red;
     justify-content: center;
 }
 
-.wrapper:nth-of-type(6) .blue{
+.wrapper:nth-of-type(6) .blue {
     width: 80px;
 }
 
 /* 7th block */
 
-.wrapper:nth-of-type(7){
+.wrapper:nth-of-type(7) {
     align-items: center;
     justify-content: flex-start;
 }
 
-.wrapper:nth-of-type(7){
+.wrapper:nth-of-type(7) {
     background-color: blue;
 }
 
-.wrapper:nth-of-type(7) .red{
+.wrapper:nth-of-type(7) .red {
     width: 80px;
     height: 60px;
 }
 
-.wrapper:nth-of-type(7) .green{
+.wrapper:nth-of-type(7) .green {
     flex: 1;
     height: 20px;
 }
 
 /* 8th block */
 
-.wrapper:nth-of-type(8){
+.wrapper:nth-of-type(8) {
     justify-content: space-between;
 }
 
-.wrapper:nth-of-type(8) .orange{
+.wrapper:nth-of-type(8) .orange {
     width: 80px;
 }
 
 /* 9th block */
 
-.wrapper:nth-of-type(9){
+.wrapper:nth-of-type(9) {
     justify-content: space-between;
 }
 
-.wrapper:nth-of-type(9) .orange{
+.wrapper:nth-of-type(9) .orange {
     width: calc(100% / 5 - 20px);
 }
